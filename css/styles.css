@@ -1,0 +1,801 @@
+body {
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #1f1f1f;
+    transition: 1.0s;
+}
+
+#title {
+    background-color: #FFCC00;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #222222;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+
+h2 {
+    line-height: 1.5;
+    transition: background-color 1.2s;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.hd-img {
+    margin-top: -100px;
+    margin-left: 40px;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    width: 65%
+}
+
+.btn-dark:hover {
+    background-color: #000;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* ------------------------------------ */
+/* NAV BAR */
+/* ------------------------------------ */
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-item a {
+    font-size: 1.2rem;
+}
+
+a#tin-dog:hover {
+    color: #363636;
+}
+
+.navbar-dark .navbar-brand {
+    color: #131313;
+}
+
+/* ------------------------------------ */
+/* Download Buttons */
+/* ------------------------------------ */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(25, 25, 25, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 0.76);
+}
+
+/* ------------------------------------ */
+/* FEATURES - ICONS */
+/* ------------------------------------ */
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    transition: background-color 1.2s;
+}
+
+.purp {
+    font-size: 400%;
+    color: #FFCC00;
+}
+
+.purp:hover {
+    color: rgba(255, 204, 0, 0.88);
+}
+
+.ft-h3 {
+    color: #f4f4f4;
+    padding-top: 10px;
+    font-size: 1.6rem;
+    font-family: 'Concert One', cursive;
+}
+
+.shii {
+    padding: 5%;
+}
+
+.shii p {
+    color: #bdbdbd;
+    font-size: 1.05rem;
+    font-weight: 600;
+    transition: background-color 1.2s;
+}
+
+/* ------------------------------------ */
+/* TESTIMONIALS & PRESS */
+/* ------------------------------------ */
+#testimonials {
+    background-color: #2e2e2e;
+    text-align: center;
+    transition: background-color 1.2s;
+}
+
+.testi {
+    font-size: 350%;
+    padding-top: 40px;
+}
+
+.t-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+#press {
+    background-color: #2e2e2e;
+    text-align: center;
+    padding-bottom: 3%;
+    transition: background-color 1.2s;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+.carousel-item h2 {
+    font-size: 1.5rem;
+}
+
+.carousel-control-next {
+    margin-right: 250px;
+}
+
+.carousel-control-prev {
+    margin-left: 250px;
+}
+
+.apple-press {
+    font-size: 500%;
+}
+
+.gg {
+    width: 5%;
+}
+
+/* ------------------------------------ */
+/* PRICING */
+/* ------------------------------------ */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pri-col {
+    padding: 7% 2%;
+}
+
+.chk {
+    color: rgba(0, 255, 59, 0.81);
+}
+
+.chkx {
+    color: rgba(255, 0, 0, 0.81);
+}
+
+.card-header {
+    background-color: #171717;
+    border-bottom: 1px solid rgb(11, 11, 11);
+    padding-top: 7%;
+    padding-bottom: 5%;
+    transition: background-color 1.2s;
+}
+
+.card {
+    background-color: #232323;
+    background-clip: border-box;
+    box-shadow: 0 15px 14px 0 rgba(15, 15, 15, 0.21);
+    transition: background-color 1.2s;
+}
+
+.card-body {
+    background-color: rgba(39, 39, 39, 0.93);
+    transition: background-color 1.2s;
+}
+
+.card-btn-ou {
+    border-color: #FFCC00;
+    color: #f4f4f4;
+    font-weight: 600;
+}
+
+.card-btn-ou:hover,
+.card-btn-ou:active {
+    background-color: #FFCC00;
+    color: #1f1f1f;
+}
+
+.card-btn-ou.focus,
+.card-btn-ou:focus {
+    box-shadow: 0 0 0 0 rgba(52, 58, 64, .5);
+}
+
+.card-btn {
+    background-color: #FFCC00;
+    color: #1f1f1f;
+    font-weight: 600;
+    border: none;
+}
+
+.card-btn:hover,
+.card-btn:active {
+    background-color: rgba(255, 204, 0, 0.87);
+    color: #1f1f1f;
+}
+
+.card-btn:not(:disabled):not(.disabled).active,
+.card-btn:not(:disabled):not(.disabled):active,
+.show > .card-btn.dropdown-toggle,
+.card-btn-ou:not(:disabled):not(.disabled).active,
+.card-btn-ou:not(:disabled):not(.disabled):active,
+.show > .card-btn-ou.dropdown-toggle {
+    color: #1f1f1f;
+    background-color: #FFCC00;
+    border-color: #171a1d;
+}
+
+.card-btn.focus,
+.card-btn:focus {
+    color: #1f1f1f;
+    background-color: #FFCC00;
+    border-color: #f0c000;
+    box-shadow: 0 0 0 0 rgba(255, 204, 0, 0.94);
+}
+
+/* ------------------------------------ */
+/* QUERIES */
+/* ------------------------------------ */
+@media (max-width: 1226px) {
+    .h3-but {
+        margin-top: 0 !important;
+        transition: background-color 1.2s;
+    }
+}
+
+@media (max-width: 1184px) {
+
+    .carousel-control-prev {
+        margin-left: 200px;
+    }
+
+    .carousel-control-next {
+        margin-right: 200px;
+    }
+}
+
+@media (max-width: 1131px) {
+
+    .float h1 {
+        padding: 0px;
+        font-size: 25px;
+        margin-top: 48px;
+        margin-left: -40px !important;
+        cursor: pointer;
+        font-style: normal;
+    }
+
+    .hd-img {
+        margin-top: -40px;
+        margin-left: 0px;
+        width: 90%;
+        position: static;
+    }
+
+    .carousel-control-prev {
+        margin-left: 100px;
+    }
+
+    .carousel-control-next {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .float h1 {
+        padding: 0px;
+        font-size: 25px;
+        margin-top: 48px;
+        margin-left: -20px !important;
+        cursor: pointer;
+        font-style: normal;
+    }
+
+    .apple-press {
+        font-size: 350%;
+    }
+
+    .container-fluid {
+        padding: 3% 10%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .carousel-control-prev {
+        margin-left: 100px;
+    }
+
+    .carousel-control-next {
+        margin-right: 100px;
+    }
+
+    .hd-img {
+        margin-top: 0;
+        text-align: left !important;
+        width: 50%;
+        padding-bottom: 4%;
+        position: static;
+    }
+
+    .t-img {
+        width: 15%;
+    }
+
+    .ip {
+        width: 30% !important;
+    }
+
+    #cta {
+        text-align: center;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        padding-top: 10% !important;
+    }
+}
+
+
+@media (max-width: 860px) {
+
+    .float h1 {
+        padding: 0px;
+        font-size: 25px;
+        margin-top: 48px;
+        margin-left: 0 !important;
+        cursor: pointer;
+        font-style: normal;
+    }
+
+    .carousel-control-prev {
+        margin-left: 30px;
+    }
+
+    .carousel-control-next {
+        margin-right: 30px;
+    }
+
+    #cta {
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .float h1 {
+        padding: 0px;
+        font-size: 25px;
+        margin-top: 48px;
+        margin-left: 10px !important;
+        cursor: pointer;
+        font-style: normal;
+    }
+
+    .apple-press {
+        font-size: 300%;
+    }
+
+    #cta {
+        padding-left: 4% !important;
+        padding-right: 4% !important;
+        padding-top: 10% !important;
+    }
+}
+
+@media (max-width: 599px) {
+
+    .carousel-control-prev {
+        margin-left: 0;
+    }
+
+    .carousel-control-next {
+        margin-right: 0;
+    }
+
+    .apple-press {
+        font-size: 250%;
+    }
+
+    .ip {
+        width: 40% !important;
+    }
+
+    #cta {
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+        padding-top: 10% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 462px) {
+
+    .float h1 {
+        padding: 0px;
+        font-size: 25px;
+        margin-top: 48px;
+        margin-left: 20px !important;
+        cursor: pointer;
+        font-style: normal;
+    }
+
+    .ip {
+        width: 50% !important;
+    }
+
+    .container-fluid {
+        padding: 3% 7%;
+    }
+
+    #testimonials {
+        padding: 10%;
+        ;
+    }
+
+    #pricing {
+        padding: 10%;
+    }
+}
+
+@media (max-width: 414px) {
+    .carousel-item h2 {
+        font-size: 1.2rem;
+    }
+
+    .testi {
+        font-size: 300%;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 354px) {
+    .testi {
+        font-size: 250%;
+        padding-top: 40px;
+    }
+}
+
+/* ------------------------------------ */
+/* CALL TO ACTION */
+/* ------------------------------------ */
+#cta {
+    background-color: #2e2e2e;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 1%;
+    transition: background-color 1.2s;
+}
+
+#cta h3 {
+    font-size: 2.8rem;
+}
+
+.h3-but {
+    position: relative;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.ip {
+    width: 40%;
+}
+
+.download-button-foot {
+    background-color: #FFCC00;
+    color: #000;
+}
+
+.download-button-foot:hover {
+    background-color: rgba(251, 201, 0, 0);
+    border: 1px solid transparent !important;
+    border-color: #FFCC00 !important;
+    color: #FFCC00;
+}
+
+.download-button-foot.focus,
+.download-button-foot:focus {
+    background-color: rgba(251, 201, 0, 0);
+    border: 1px solid transparent !important;
+    border-color: #FFCC00 !important;
+    color: #FFCC00;
+    box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0);
+}
+
+.btn-dark:not(:disabled):not(.disabled).active,
+.btn-dark:not(:disabled):not(.disabled):active,
+.show > .btn-dark.dropdown-toggle {
+    background-color: rgba(251, 201, 0, 0);
+    border: 1px solid transparent !important;
+    border-color: #FFCC00 !important;
+    color: #FFCC00;
+    box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0);
+}
+
+/* ------------------------------------ */
+/* FOOTER */
+/* ------------------------------------ */
+
+#footer {
+    padding: 6%;
+    text-align: center;
+    font-size: 1.1rem;
+    transition: background-color 1.2s;
+}
+
+#footer p {
+    color: #acacac;
+}
+
+.foot-ico {
+    margin-right: 10px;
+    transition: background-color 1.2s;
+}
+
+
+/* ------------------------------------ */
+/* THEME */
+/* ------------------------------------ */
+.fa-adjust {
+    color: white;
+    transition: background-color 1.2s;
+}
+
+.label-container {
+    position: fixed;
+    bottom: 82px;
+    right: 60px;
+    display: table;
+    visibility: hidden;
+}
+
+.label-text {
+    color: #000;
+    background: rgba(248, 248, 248, 0.79);
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+body[data-mode=dark] .label-text {
+    color: #FFF;
+    background: rgba(51, 51, 51, 0.75);
+}
+
+.label-arrow {
+    display: table-cell;
+    vertical-align: middle;
+    color: #333;
+    opacity: 0.5;
+}
+
+.float {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 69px;
+    right: 10px;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.float h1 {
+    padding: 0px;
+    font-size: 25px;
+    margin-top: 48px;
+    margin-left: -70px;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.my-float {
+    font-size: 24px;
+    margin-top: 18px;
+}
+
+a.float + div.label-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.float:hover + div.label-container {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* ------------------------------------ */
+/* DARK THEME COLOURS */
+/* ------------------------------------ */
+
+body[data-mode=dark] {
+    background-color: #ececec;
+    transition: background-color 1.2s;
+}
+
+[data-mode=dark] #features {
+    background-color: rgba(229, 229, 229, 0.5);
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .ft-h3 {
+    color: #1d1d1d;
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .shii p {
+    color: #707070;
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] #testimonials,
+body[data-mode=dark] #press {
+    background-color: #ececec;
+    color: #000;
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .carousel-control-next,
+body[data-mode=dark] .carousel-control-prev {
+    filter: invert(100%);
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] #pricing {
+    background-color: rgba(229, 229, 229, 0.5);
+    color: #1d1d1d;
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .card {
+    background-color: #ffffff;
+    box-shadow: 0 15px 14px 0 rgba(152, 152, 152, 0.21);
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .card-header {
+    background-color: #e9e9e9;
+    border-bottom: 1px solid #e1e1e1;
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .card-body {
+    background-color: rgba(236, 236, 236, 0.93);
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .card-btn-ou {
+    color: #1d1d1d;
+}
+
+body[data-mode=dark] #cta {
+    background-color: #ececec;
+    color: #1d1d1d;
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] #footer {
+    background-color: rgb(229, 229, 229);
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .foot-ico {
+    color: #1e1e1e;
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] .download-button-outline {
+    color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+
+body[data-mode=dark] .download-button-outline:hover {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+
+body[data-mode=dark] .download-button-foot:hover {
+    color: #1d1d1d;
+    border-color: #1d1d1d !important;
+}
+
+body[data-mode=dark] .download-button-foot.focus,
+body[data-mode=dark] .download-button-foot:focus {
+    background-color: #FFCC00;
+    border: 1px solid transparent !important;
+    border-color: #1d1d1d !important;
+    color: #1d1d1d;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+}
+
+body[data-mode=dark] .download-button-foot:not(:disabled):not(.disabled).active,
+body[data-mode=dark] .download-button-foot:not(:disabled):not(.disabled):active,
+.show > body[data-mode=dark] .download-button-foot.dropdown-toggle {
+    background-color: rgba(251, 201, 0, 0);
+    border: 1px solid transparent !important;
+    border-color: #1d1d1d !important;
+    color: #1d1d1d;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+}
+
+body[data-mode=dark] .fa-adjust {
+    color: #1d1d1d;
+    transition: background-color 1.2s;
+}
+
+body[data-mode=dark] #footer p {
+    color: #868686;
+}
+
+#myBtn {
+    display: none;
+}
+
+.copy-but {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.copy-but p:hover {
+    color: #000;
+}
+
+input[type="button"] {
+    outline: none;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+/* 
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Ubuntu Mono', monospace;
+*/

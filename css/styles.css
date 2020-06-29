@@ -467,9 +467,8 @@ a#tin-dog:hover {
         padding: 3% 7%;
     }
 
-    #testimonials {
-        padding: 10%;
-        ;
+     #testimonials {
+        padding: 0;
     }
 
     #pricing {

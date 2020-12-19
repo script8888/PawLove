@@ -48,28 +48,7 @@
             });
         });
         
-        // SMOOTH MOUSE SCROLL
-if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
-window.onmousewheel = document.onmousewheel = wheel;
 
-function wheel(event) {
-    var delta = 0;
-    if (event.wheelDelta) delta = event.wheelDelta / 120;
-    else if (event.detail) delta = -event.detail / 3;
-
-    handle(delta);
-    if (event.preventDefault) event.preventDefault();
-    event.returnValue = false;
-}
-
-function handle(delta) {
-    var time = 800;
-	var distance = 200;
-    
-    $('html, body').stop().animate({
-        scrollTop: $(window).scrollTop() - (distance * delta)
-    }, time );
-}
     </script>
 </head>
 
@@ -275,9 +254,6 @@ function handle(delta) {
         <i class="fab fa-instagram foot-ico"></i>
         <i class="far fa-envelope foot-ico"></i>
         <p>© Copyright 2020 PawLove</p>
-        <button onclick="window.location.href='https://wa.me/2348122083472?text=';" type="button" class="copy-but">
-            <p>Designed by <s>You</s> PJ_C0der</p>
-        </button>
 
     </footer>
 
